@@ -1,0 +1,2 @@
+# IT-PracticaExam
+Create a mysql database Library with a table- books having fields, bookid (primary key), title, author, and  price (in that order). b) Write an HTML page with AJAX to receive the xml file (exam.xml) from server and then process the XML file  and then insert into the data base. (you have to write the corresponding PHP program which will run in the server  to connect to database and insert).
