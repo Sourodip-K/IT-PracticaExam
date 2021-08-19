@@ -11,9 +11,9 @@ if(isset($_FILES['file']['name']) &&  $_FILES['file']['name'] != '')
  if(in_array($file_extension, $valid_extension))
  {
   $data = simplexml_load_file($_FILES['file']['tmp_name']);
-  $connect = new PDO('mysql:host=localhost;dbname=library','root', '');
+  $connect = new PDO('mysql:host=localhost;dbname=libraryz','root', '');
   $query = "
-  INSERT INTO books 
+  INSERT INTO exam 
    (author, title, genre, price, publish_date, description) 
    VALUES(:author, :title, :genre, :price, :publish_date, :description);
   ";
